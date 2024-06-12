@@ -1,15 +1,15 @@
-# How to download all Landsat8 satellite images in a time frame
+How to download all Landsat8 satellite images in a time frame
 
-# Connect to GEE
-import ee
-ee.Authenticate()
-ee.Initialize(project='ee-gisrs')
+Connect to GEE
+      import ee
+      ee.Authenticate()
+      ee.Initialize(project='ee-gisrs')
 
-# Import packages
-import folium
-import requests
-import os
-import datetime
+Import packages
+      import folium
+      import requests
+      import os
+      import datetime
 
 # Set study area coordinates
 aoi = ee.Geometry.Rectangle([52.45, 36.67, 52.64, 36.72])
