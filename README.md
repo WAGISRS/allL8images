@@ -1,4 +1,4 @@
-How to download all Landsat8 satellite images in a time frame
+How to download all of Landsat-8 satellite images in a time frame
 
 # 1. Connect to Google Earth Engine
       import ee
