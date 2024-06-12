@@ -1,7 +1,7 @@
 How to download all Landsat8 satellite images in a time frame
 
 1. Connect to GEE
-      import ee
+      #import ee
       ee.Authenticate()
       ee.Initialize(project='ee-gisrs')
 
