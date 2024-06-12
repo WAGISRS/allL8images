@@ -19,7 +19,7 @@ How to download all Landsat8 satellite images in a time frame
       folium.GeoJson(aoi.getInfo(), name="AOI").add_to(map)
       map
 
-# 5. Select tima frame
+# 5. Select time frame
       start_date = ee.Date('2022-01-01')
       end_date = ee.Date('2022-03-31')
 
