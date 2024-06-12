@@ -3,7 +3,7 @@ How to download all Landsat8 satellite images in a time frame
 # 1. Connect to Google Earth Engine
       import ee
       ee.Authenticate()
-      ee.Initialize(project='ee-gisrs')
+      ee.Initialize(project='your project name')
 
 # 2. Import packages
       import folium
